@@ -1,0 +1,144 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hero {
+  background: linear-gradient(to right, #74aeec, #202021);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+ /* .hero {
+  background: linear-gradient(to right, #ece4e4, #069de8);
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+} */
+
+
+.about h2, .skills h2 {
+  color: #333;
+  font-weight: bold;
+}
+
+.skills img {
+  transition: transform 0.3s ease;
+}
+
+.skills img:hover {
+  transform: scale(1.1);
+}
+.about p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #444;
+}
+/* .about strong {
+  color: #007bff;
+} */
+.about em {
+  color: #6c757d;
+}
+.typed-cursor {
+  display: none;
+}
+.typed-cursor {
+  display: none;
+}
+/* DARK MODE FIXES */
+.dark-mode {
+  background-color: #111 !important;
+  color: #f8f9fa !important;
+}
+
+.dark-mode .bg-light {
+  background-color: #1a1a1a !important;
+}
+
+.dark-mode .text-dark {
+  color: #f8f9fa !important;
+}
+
+.dark-mode .about,
+.dark-mode .projects,
+.dark-mode #certifications,
+.dark-mode #contact {
+  background-color: #1a1a1a !important;
+  color: #f8f9fa !important;
+}
+
+.dark-mode .card {
+  background-color: #222 !important;
+  color: #f8f9fa;
+}
+
+.dark-mode .card .card-text,
+.dark-mode .card .card-title,
+.dark-mode .card p,
+.dark-mode .card li,
+.dark-mode .form-label,
+.dark-mode .form-control,
+.dark-mode .btn-outline-dark {
+  color: #f8f9fa !important;
+}
+
+.dark-mode .form-control {
+  background-color: #333 !important;
+  border: 1px solid #555 !important;
+}
+
+.dark-mode .form-control::placeholder {
+  color: #ccc;
+}
+
+.dark-mode .list-unstyled li {
+  color: #ccc !important;
+}
+
+/* Better dark mode text colors */
+.dark-mode h2,
+.dark-mode h5,
+.dark-mode p,
+.dark-mode li,
+.dark-mode label,
+.dark-mode .form-label,
+.dark-mode .card-text,
+.dark-mode .card-title {
+  color: #f1f1f1 !important;
+}
+
+/* Skill labels under icons */
+.dark-mode .skills p {
+  color: #f1f1f1 !important;
+}
+
+/* Optional: Make section headings pop */
+.dark-mode h2 {
+  color: #e9cfa0 !important;
+}
+
+/* Optional: Slightly darker card backgrounds */
+.dark-mode .card {
+  background-color: #1f1f1f !important;
+}
+
+/* Optional: Form field improvements */
+.dark-mode .form-control {
+  background-color: #333 !important;
+  color: #fff !important;
+  border-color: #555 !important;
+}
+
+/* Smooth transition for sections too */
+section, .card, .navbar, footer {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
