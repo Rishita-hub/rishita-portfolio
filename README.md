@@ -49,3 +49,34 @@ This website showcases my journey, skills, projects, certifications, and the pas
 
 ## 📁 Folder Structure
 
+rishita-portfolio/
+│
+├── images/ → All images used in the portfolio
+├── style.css → Custom CSS styles
+├── index.html → Main HTML file
+├── Rishita_Resume.pdf → Resume for download
+
+
+
+
+---
+
+## ✨ Credits
+
+- Built with ❤️ by [**Rishita Yadav**](https://www.linkedin.com/in/rishita-yadav-r120905/)
+- Icons by [Bootstrap Icons](https://icons.getbootstrap.com/)
+- Hosting via [GitHub Pages](https://pages.github.com/)
+
+---
+
+## 📬 Contact
+
+If you'd like to get in touch:
+
+
+- 🧑‍💼 LinkedIn: [@rishita-yadav](https://www.linkedin.com/in/rishita-yadav-r120905/)  
+- 💻 GitHub: [@Rishita-hub](https://github.com/Rishita-hub)
+
+---
+
+_⭐ Feel free to fork, star, or use this template as inspiration!_
